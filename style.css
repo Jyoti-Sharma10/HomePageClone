@@ -178,3 +178,35 @@ ul {
 .logo {
     height: 46px;
 }
+
+/* feature section */
+
+.features-section {
+   margin: 80px var(--padding-inline-section) 0;
+}
+
+.feature-header {
+    text-align: center;
+}
+
+.feature-header h2 {
+    margin-bottom: 20px;
+}
+
+.feature-area {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+    background-image: url(assets/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+
+.feature-card {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+}
