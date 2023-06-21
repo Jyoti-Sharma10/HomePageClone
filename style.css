@@ -48,6 +48,7 @@ ul {
 }
 
 /* utility classes */
+
 .small-bold-text {
     font-size: 1rem;
     font-weight: 700;
@@ -103,6 +104,7 @@ ul {
 }
 
 /* top banner classes */
+
 .banner-text {
     text-align: center;
     color: white;
@@ -203,10 +205,26 @@ ul {
     background-position: center;
 }
     
-
 .feature-card {
     flex-direction: column;
     gap: 20px;
     max-width: 30%;
     text-align: center;
+}
+
+.big-feature-section {
+    padding: 20px var(--padding-inline-section) 0;
+}
+
+.big-feature-container {
+    gap: 30px;
+}
+
+.feature-img img{
+    width: 100%;
+}
+
+.feature-desc {
+    flex-direction: column;
+    align-items: flex-start;
 }
