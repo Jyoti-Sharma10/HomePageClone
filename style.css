@@ -220,6 +220,10 @@ ul {
     gap: 30px;
 }
 
+.feature-card img {
+    width: 60px;
+}
+
 .feature-img img{
     width: 100%;
 }
@@ -272,3 +276,48 @@ ul {
     color: white;
 }
 
+/* cta- section */
+
+.cta-section {
+    padding: 80px var(--padding-inline-section) 120px;
+}
+
+.cta-container {
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cta-container p {
+    margin-top: 20px;
+}
+
+/* footer */
+
+footer {
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
+.footer-container {
+    justify-content: space-between;
+    
+}
+
+.link-col {
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 20px;
+
+}
+
+/* sub-footer */
+
+.subfooter {
+    padding: var(--padding-inline-section);
+    background-color: #b9cde4;
+}
+
+.subfooter-ctn {
+    justify-content: center;
+    gap: 30px;
+}
